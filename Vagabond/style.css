@@ -3,40 +3,67 @@
 body {
   font-family: "Jersey 10", system-ui;
   text-align: center;
-  background-image: url("./vagabond.gif");
-  background-size: 134.7%;
   background-repeat: no-repeat;
-  background-position: top;
+  background-size: cover;
+  background-image: url("https://images5.alphacoders.com/131/1315630.png");
 }
 
 .clock {
   position: absolute;
-  top: 48%;
-  left: 25.9%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 26%;
+  transform: translateX(-50%) translateY(-50%);
   font-size: 95px;
   font-family: "Jersey 10", system-ui;
   letter-spacing: 10px;
+  color: #000;
   font-weight: bolder;
-  text-shadow: 2px 2px 1px white;
+  text-shadow: 2px 2px 1px #fff;
 }
 
 .mili {
   position: absolute;
-  top: 50%;
-  left: 35%;
-  transform: translate(-50%, -50%);
-  color: black;
+  top: 51.9%;
+  left: 34.8%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #000;
   font-size: 20px;
   font-family: "Jersey 10", system-ui;
   font-weight: bolder;
-  text-shadow: 2px 2px 1px white;
+  text-shadow: 1.5px 1.5px 0px #fff;
 }
+
+.container-temp {
+  position: absolute;
+  font-size: 120px;
+  font-weight: normal;
+  top: 44%;
+  left: 70%;
+  text-shadow: 2px 2px 1px white;
+  font-weight: bolder;
+}
+
+.celcius {
+  position: absolute;
+  font-size: 70px;
+  font-weight: normal;
+  top: 41%;
+  left: 76%;
+  text-shadow: 2px 2px 1px white;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
 
 .open-popup-btn {
   position: fixed;
-  top: -5px;
-  right: -5px;
+  top: -6px;
+  right: -6px;
   padding: 5px 5px;
   background-color: black;
   border: none;

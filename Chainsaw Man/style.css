@@ -53,9 +53,10 @@ body {
 }
 
 .container-temp {
-  font-size: 120px;
+  font-size: 110px;
   font-family: "Jersey 10", system-ui;
   font-weight: normal;
+  font-weight: bolder;
 }
 
 

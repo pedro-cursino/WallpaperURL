@@ -24,7 +24,7 @@ body {
 .mili {
   position: absolute;
   top: 51.9%;
-  left: 84.8%;
+  left: 85%;
   transform: translateX(-50%) translateY(-50%);
   color: #a5272d;
   font-size: 20px;
@@ -33,6 +33,24 @@ body {
   text-shadow: 2px 2px 1px #fcfcff;
 }
 
+.clima {
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-shadow: 0.5px 0.5px 1px #fcfcff;
+  color: #a5272d;
+}
+
+.container-temp {
+  font-size: 120px;
+  font-family: "Jersey 10", system-ui;
+  font-weight: normal;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px #fcfcff;
+}
 
 
 

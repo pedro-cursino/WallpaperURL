@@ -11,7 +11,7 @@ body {
 .clock {
   position: absolute;
   top: 50%;
-  left: 26%;
+  left: 23%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 95px;
   font-family: "Jersey 10", system-ui;
@@ -24,7 +24,7 @@ body {
 .mili {
   position: absolute;
   top: 51.9%;
-  left: 34.8%;
+  left: 32%;
   transform: translateX(-50%) translateY(-50%);
   color: #050616;
   font-size: 20px;
@@ -33,6 +33,29 @@ body {
   text-shadow: 1.5px 1.5px 0px #717171;
 }
 
+.container-temp {
+  position: absolute;
+  font-size: 95px;
+  font-weight: normal;
+  top: 50%;
+  left: 38%;
+  text-shadow: 2px 2px 1px #717171;
+  font-weight: bolder;
+  color: #050616;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.celcius {
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  top: 50%;
+  left: 41%;
+  text-shadow: 1.5px 1.5px 0px #717171;
+  font-weight: bolder;
+  transform: translateX(-50%) translateY(-50%);
+  color: #050616;
+}
 
 
 

@@ -5,9 +5,13 @@
   <meta charset="UTF-8">
   <title>Wallpaper</title>
   <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 </head>
 
 <body>
+  <div id="bitcoin_chart" class="chart"></div>
+
   <h1></h1>
   <div id="Relogio" class="clock" onload="showTime()"></div>
   <div id="Milissegundos" class="mili" onload="showTime()"></div>
@@ -27,6 +31,7 @@
     <button onclick="closePopup()">Fechar</button>
   </div>
 
+  <script src="./script_grafico.js"></script>
   <script src="./script.js"></script>
 </body>
 
