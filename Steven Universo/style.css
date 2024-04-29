@@ -7,20 +7,9 @@ body {
   background-size: cover;
 }
 
-.chart {
-  position: absolute;
-  top: 41%;
-  left: 62%;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: 95px;
-  text-shadow: 1px 1px 1px white;
-  background-color: transparent;
-  z-index: 9999;
-}
-
 .clock {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 62%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 95px;
@@ -32,7 +21,7 @@ body {
 
 .mili {
   position: absolute;
-  top: 32%;
+  top: 37%;
   left: 71%;
   transform: translateX(-50%) translateY(-50%);
   color: black;
